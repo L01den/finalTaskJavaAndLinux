@@ -4,27 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a295b388-f805-404a-afd1-f4bb393fcf33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Aminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Comands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/baggage/BaggageAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/baggage/Camel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/baggage/Donkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/baggage/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domestic/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domestic/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domestic/DomesticAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domestic/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/taskOnLinux/comand.md" afterDir="false" />
+    <list default="true" id="a295b388-f805-404a-afd1-f4bb393fcf33" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AnimalRelay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AnimalSpecies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Comand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PetComands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Aminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Comands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/baggage/BaggageAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/baggage/BaggageAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domestic/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domestic/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domestic/DomesticAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domestic/DomesticAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/задание 6.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/задание 6.drawio" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
         <option value="Enum" />
       </list>
     </option>
@@ -53,13 +46,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="A:\java_lesson\finalTask\src" />
@@ -74,6 +67,14 @@
       <option name="presentableId" value="Default" />
       <updated>1681147700293</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1681232607907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681232607907</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,5 +87,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>56</line>
+          <properties class="org.example.Main" method="print">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
