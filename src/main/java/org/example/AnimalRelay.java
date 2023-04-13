@@ -69,7 +69,6 @@ public class AnimalRelay {
                     System.out.printf(conammd + ", ");
                 }
             }
-            System.out.println();
         }
     }
 

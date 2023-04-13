@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a295b388-f805-404a-afd1-f4bb393fcf33" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AnimalRelay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AnimalSpecies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Comand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PetComands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Aminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Comands.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AnimalRelay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AnimalRelay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Comand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PetComands.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/baggage/BaggageAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/baggage/BaggageAnimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domestic/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domestic/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domestic/DomesticAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domestic/DomesticAnimal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/задание 6.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/src/задание 6.drawio" afterDir="false" />
     </list>
@@ -97,12 +93,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>56</line>
-          <properties class="org.example.Main" method="print">
+          <line>66</line>
+          <properties class="org.example.Main" method="addCommand">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

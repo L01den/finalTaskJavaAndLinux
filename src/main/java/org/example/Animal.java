@@ -10,20 +10,19 @@ public abstract class Animal {
     private String name;
     private LocalDate dateOfBirth;
     private List<String> comands = new ArrayList<>(); // ???
-    private PetComands comand;
 
 
 
-    public Animal(int id, String name, LocalDate dateOfBirth) {
+
+    public Animal(int id, String name) {
         this.id = id;
         this.name = name;
-        this.dateOfBirth = dateOfBirth;
         Collections.addAll(comands, "GO", "STOP", "RUN_AWAY", "COME_UP", "LIE", "JUMP", "STAND_UP");
     }
 
     @Override
     public String toString() {
-        return "Name - " + name + ", id - " + id;
+        return "Name - " + name + ", id - " + id + ", date of birth - " + dateOfBirth;
     }
 
     public List<String> getComands() {
@@ -39,12 +38,9 @@ public abstract class Animal {
     public LocalDate getDateOfBirth(){
         return dateOfBirth;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 }
-
-
-//+ animal(int, datetime)
-//        + setDateOfBirth(datetime): void
-//        + getDateOfBirth(): datetime
-//        + setName(String): void
-//        + getName(): String
-//        + addCommand(enum): void
